@@ -1,14 +1,4 @@
-cat > finish-site.sh <<'EOF'
-#!/usr/bin/env bash
-set -e
-read -p "Formspree ID (z.B. f/xxxxx) oder Enter zum Überspringen: " FORMID
-[ -n "$FORMID" ] && sed -i.bak "s/cat > finish-site.sh <<'EOF'/$FORMID/g" index.html && rm -f index.html.bak
-git checkout -b feat/site-final || git checkout feat/site-final
-git add . && git commit -m "feat(site): final site" || echo "Nichts zu committen"
-git push --set-upstream origin feat/site-final
-if command -v gh >/dev/null 2>&1; then gh pr create --title "feat: final site" --body "Final site ready (Masterdossier/Satzung in /docs/). Please review." --base main --label site --web; else echo "GH CLI fehlt: bitte PR manuell auf GitHub erstellen (Branch feat/site-final)"; fi
-EOF
-chmod +x finish-site.sh && ./finish-site.sh<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="de">
 <head>
   <meta charset="UTF-8">
@@ -286,7 +276,7 @@ chmod +x finish-site.sh && ./finish-site.sh<!DOCTYPE html>
     <div class="container fade-in">
       <h2 id="kontakt-heading" class="center">Kontakt & Standort</h2>
       <p class="lead center">Kontaktformular oder E-Mail – gerne auch Gespräch anfragen.</p>
-      <form id="contact-form" action="https://formspree.io/f/cat > finish-site.sh <<'EOF'" method="POST">
+      <form id="contact-form" action="https://formspree.io/f/REPLACE_WITH_YOUR_ID" method="POST">
         <label for="name">Name</label>
         <input id="name" name="name" type="text" placeholder="Name" required>
         <label for="email">E-Mail</label>
