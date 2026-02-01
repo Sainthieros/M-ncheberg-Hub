@@ -28,6 +28,21 @@ moencheberg-hub/
 - Kontaktformular vorbereitet für Formspree (setze deine Formspree-ID in `index.html`).
 - Platzhalter: `docs/masterdossier.pdf`, `docs/satzung.pdf`, `docs/antrag_mitglied.pdf` (bitte ersetzen mit finalen Dateien).
 
+## Bilder einfügen (sehr einfach)
+Benutze die folgenden Dateinamen im Ordner `images/`:
+- `hero.jpg` (oder `hero.mp4` + `hero.jpg` poster)
+- `arena.jpg`
+- `studio.jpg`
+- `foyer.jpg`
+- `snoezelen.jpg`
+- `ringpark.jpg`
+
+Empfohlenes Vorgehen:
+1. Füge die Originalbilder in `images/` per GitHub Web UI oder VS Code (Drag & Drop) hinzu.
+2. Optional: führe `./optimize-images.sh` lokal aus (benötigt ImageMagick `convert` und `cwebp`). Das Skript erzeugt optimierte `-1200.jpg`, `-600.jpg` und `.webp` Varianten, die automatisch in `srcset` genutzt werden.
+3. Commit & push. Wenn du möchtest, ersetze die Platzhalter-PDFs in `/docs/` ebenfalls.
+
+Wenn du möchtest, kann ich die Bilder für dich optimieren und einfügen — antworte mit **"Mach du"**.
 ## Schnellstart
 1. Formular: Ersetze `action="https://formspree.io/f/REPLACE_WITH_YOUR_ID"` in `index.html` mit deiner Formspree-ID.
 2. Masterdossier: Lege `docs/masterdossier.pdf` mit der finalen Version ab (Derzeit Platzhalter).

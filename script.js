@@ -19,6 +19,13 @@ if(discover){
   });
 }
 
+// Hero video: show if playable
+const heroVideo = document.querySelector('.hero-media');
+if(heroVideo){
+  heroVideo.addEventListener('canplay', () => { heroVideo.style.display = 'block'; });
+  heroVideo.addEventListener('error', () => { heroVideo.style.display = 'none'; });
+}
+
 // Accessible Accordion
 const accButtons = document.querySelectorAll('.accordion-title');
 accButtons.forEach(btn => {
