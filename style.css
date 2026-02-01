@@ -1,0 +1,65 @@
+/* Minimal, high-end layout: viel Weißraum, große Headlines, ruhige Übergänge */
+:root{--wood:#F5E6D3;--accent:#FFB400;--dark:#2D2D2D;--muted:#6b6b6b}
+*{box-sizing:border-box}html,body{height:100%}body{font-family:Inter, 'Open Sans', sans-serif;color:var(--dark);background:#fff;margin:0;line-height:1.6}
+.container{max-width:1100px;margin:0 auto;padding:0 20px}
+.center{text-align:center}
+.sr-only{position:absolute!important;height:1px;width:1px;overflow:hidden;clip:rect(1px,1px,1px,1px);white-space:nowrap}
+
+/* Header */
+header{padding:24px 0}
+.logo{font-family:'Merriweather', serif;font-weight:700;font-size:1.15rem;color:var(--dark)}
+
+/* Hero */
+#hero{min-height:72vh;display:flex;align-items:center;background-color:#111;background-image:linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url('./images/hero.svg');background-size:cover;background-position:center;color:#fff;padding:48px 20px}
+#hero .container{display:flex;align-items:center;gap:48px}
+.hero-copy{max-width:680px}
+#hero h1{font-family:'Merriweather',serif;font-weight:700;font-size:3.2rem;margin:0 0 8px}
+#hero p{font-size:1.15rem;color:rgba(255,255,255,0.92);margin-bottom:20px}
+.hero-cta{display:flex;gap:12px;align-items:center}
+.btn{display:inline-block;padding:14px 22px;border-radius:8px;font-weight:700;text-decoration:none}
+.btn-primary{background:var(--accent);color:var(--dark)}
+.btn-secondary{background:transparent;color:#fff;border:1px solid rgba(255,255,255,0.12)}
+
+/* Sections */
+section{padding:64px 0}
+h2{font-size:1.8rem;margin-bottom:18px}
+p.lead{max-width:780px;margin:0 auto;color:var(--muted);font-size:1.05rem}
+
+/* Two-column grid */
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center}
+@media(max-width:900px){.grid{grid-template-columns:1fr}}
+
+/* Cards / visuals */
+.visual{border-radius:10px;overflow:hidden;box-shadow:0 6px 30px rgba(0,0,0,.08)}
+.visual img{width:100%;height:420px;object-fit:cover;display:block}
+@media(max-width:900px){.visual img{height:260px}}
+
+/* Nucleus / ringpark lists */
+.feature-list{display:grid;gap:12px}
+.feature-item{padding:12px 0;border-bottom:1px solid #eee}
+.feature-item strong{display:block}
+
+/* Accordion */
+.accordion{margin-top:12px}
+.accordion-title{width:100%;text-align:left;padding:14px 16px;border:1px solid #eee;border-radius:8px;background:#fff;display:flex;justify-content:space-between;align-items:center;font-weight:600}
+.accordion-content{padding:12px 16px;border-left:2px solid rgba(0,0,0,0.04);background:#fbfbfb;margin-top:8px;border-radius:6px}
+
+/* Verein + CTAs */
+#verein .buttons{display:flex;gap:12px;justify-content:center;margin-top:12px}
+.btn-ghost{background:#fff;border:1px solid #eee;color:var(--dark);padding:10px 18px;border-radius:8px}
+
+/* Kontakt */
+#kontakt form{max-width:640px;margin:0 auto;display:grid;gap:12px}
+input,textarea{padding:12px;border-radius:8px;border:1px solid #ddd;font-size:1rem}
+[aria-live]{margin-top:6px}
+
+/* Footer */
+footer{padding:28px 0;background:#fff;border-top:1px solid #eee;color:var(--muted);font-size:0.95rem}
+
+/* Subtle animations */
+.fade-in{opacity:0;transform:translateY(10px);transition:opacity .6s ease,transform .6s ease}
+.fade-in.show{opacity:1;transform:none}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+
+/* Smaller screens */
+@media(max-width:480px){#hero h1{font-size:2rem}#hero p{font-size:1rem}}

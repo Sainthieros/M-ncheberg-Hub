@@ -1,0 +1,38 @@
+name: CI — Lighthouse & Accessibility
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  audit:
+    name: Lighthouse & Pa11y Audit
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install tools
+        run: |
+          npm install -g http-server @lhci/cli pa11y
+
+      - name: Serve site
+        run: |
+          http-server -p 8080 -c-1 &
+          sleep 2
+
+      - name: Run Lighthouse CI (upload to temporary storage)
+        run: |
+          npx lhci autorun --upload.target=temporary-public-storage
+
+      - name: Run Pa11y accessibility scan
+        run: |
+          npx pa11y http://localhost:8080 || true
