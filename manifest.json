@@ -11,5 +11,554 @@
       "sizes": "any",
       "type": "image/svg+xml"
     }
-  ]
+  ],
+  "description": "Möncheberg Hub – Urban Culture & Sports BS — ganzjähriger Begegnungsort für Sport, Musik, Bildung und Community im Süden Braunschweigs.",
+  "lang": "de",
+  "theme_color": "#FFB400",
+  "viewport": "width=device-width,initial-scale=1",
+  "charset": "utf-8",
+  "title": "Möncheberg Hub – Urban Culture & Sports BS",
+  "css": [
+    "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;600&display=swap"
+  ],
+  "scripts": [],
+  "noscript": [],
+  "html": {
+    "head": {
+      "meta": [
+        {
+          "name": "description",
+          "content": "Möncheberg Hub – Urban Culture & Sports BS — ganzjähriger Begegnungsort für Sport, Musik, Bildung und Community im Süden Braunschweigs."
+        },
+        {
+          "name": "theme-color",
+          "content": "#FFB400"
+        }
+      ],
+      "title": "Möncheberg Hub – Urban Culture & Sports BS",
+      "link": [
+        {
+          "rel": "stylesheet",
+          "href": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;600&display=swap"
+        }
+      ],
+      "style": [
+        ":root{--wood:#F5E6D3;--dark:#2D2D2D;--accent:#FFB400;--muted:#6b6b6b}*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;color:var(--dark);background:#fff;line-height:1.6}.container{max-width:1100px;margin:0 auto;padding:0 20px}a{color:inherit}.skip{position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden}.skip:focus{position:static;width:auto;height:auto;padding:8px;background:#fff;z-index:999;border:2px solid var(--accent)}header{padding:28px 0}.logo{font-family:'Playfair Display',serif;font-weight:600;font-size:1.05rem}section{padding:64px 0}.hero{background:var(--wood);min-height:80vh;display:flex;align-items:center}.hero-content{max-width:900px}h1{font-family:'Playfair Display',serif;font-size:2.8rem;margin:0 0 10px}h2{font-family:'Playfair Display',serif;font-size:1.9rem;margin:0 0 0.6rem}p.lead{max-width:780px;color:var(--muted);margin:0 0 12px}.btn{display:inline-block;padding:12px 18px;border-radius:6px;text-decoration:none;font-weight:600}.btn-primary{background:var(--accent);color:var(--dark)}.btn-ghost{border:1px solid #e6e6e6;padding:10px 16px;border-radius:6px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin-top:18px}.visual{background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.06)}.visual img{width:100%;height:300px;object-fit:cover;display:block}.feature-list{list-style:none;padding:0;margin:16px 0}.feature-list li{margin-bottom:12px}.accordion details{border-bottom:1px solid #eee;padding:12px 0}footer{background:#faf9f8;border-top:1px solid #eee;padding:30px 0;color:var(--muted)}@media(max-width:600px){h1{font-size:1.8rem}.visual img{height:180px}}"
+      ]
+    },
+    "body": {
+      "a": {
+        "class": "skip",
+        "href": "#main",
+        "text": "Zum Inhalt springen"
+      },
+      "header": {
+        "class": "container",
+        "role": "banner",
+        "div": [
+          {
+            "style": "display:flex;align-items:center;justify-content:space-between",
+            "div": {
+              "class": "logo",
+              "text": "Möncheberg Hub"
+            },
+            "nav": {
+              "aria-label": "Hauptnavigation",
+              "style": "font-size:0.95rem",
+              "a": [
+                {
+                  "href": "#mission",
+                  "style": "margin-right:16px",
+                  "text": "Mission"
+                },
+                {
+                  "href": "#nucleus",
+                  "style": "margin-right:16px",
+                  "text": "Nucleus"
+                },
+                {
+                  "href": "#ringpark",
+                  "style": "margin-right:16px",
+                  "text": "Ringpark"
+                },
+                {
+                  "href": "#argumentation",
+                  "style": "margin-right:16px",
+                  "text": "Argumente"
+                },
+                {
+                  "href": "#kontakt",
+                  "text": "Kontakt"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "main": {
+        "id": "main",
+        "section": [
+          {
+            "class": "hero",
+            "aria-label": "Hero",
+            "div": {
+              "class": "container hero-content",
+              "h1": {
+                "text": "Ein neuer urbaner Anker<br><span style=\"color:var(--accent)\">für den Süden Braunschweigs.</span>"
+              },
+              "p": {
+                "class": "lead",
+                "text": "Der Möncheberg Hub verbindet Sport, Kultur, Bildung und Community – 365 Tage im Jahr, inklusiv und nachhaltig."
+              },
+              "a": [
+                {
+                  "class": "btn btn-primary",
+                  "href": "/docs/masterdossier.pdf",
+                  "download": true,
+                  "text": "Masterdossier herunterladen"
+                },
+                {
+                  "class": "btn btn-ghost",
+                  "href": "#mission",
+                  "style": "margin-left:12px",
+                  "text": "Projekt kennenlernen"
+                }
+              ]
+            }
+          },
+          {
+            "id": "mission",
+            "class": "container",
+            "aria-labelledby": "mission-title",
+            "h2": {
+              "id": "mission-title",
+              "text": "Schluss mit dem Winterschlaf"
+            },
+            "p": {
+              "class": "lead",
+              "text": "Während der Süden wächst, fehlen ganzjährige Orte für Begegnung und Kultur. Der Hub schafft den dritten Ort zwischen Wohnen und Alltag."
+            },
+            "div": {
+              "class": "grid",
+              "div": [
+                {
+                  "h3": {
+                    "text": "Problem"
+                  },
+                  "ul": {
+                    "class": "feature-list",
+                    "li": [
+                      {
+                        "strong": "Saisonale Leerstände",
+                        "text": " – im Winter fehlen Treffpunkte."
+                      },
+                      {
+                        "strong": "Keine Treffkultur",
+                        "text": " – junge Menschen haben zu wenige Räume."
+                      },
+                      {
+                        "strong": "Geringe Identität",
+                        "text": " – neue Quartiere ohne kulturelle Mitte."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "h3": {
+                    "text": "Lösung"
+                  },
+                  "ul": {
+                    "class": "feature-list",
+                    "li": [
+                      {
+                        "strong": "Der Möncheberg Hub",
+                        "text": " – Indoor + Outdoor, modular und inklusiv."
+                      },
+                      {
+                        "strong": "Ganzjahresnutzung",
+                        "text": " – Arena, Studios, Park & Angebote."
+                      },
+                      {
+                        "strong": "Förderfähig",
+                        "text": " – klares, zitiertes Argumentationspaket."
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "masterplan",
+            "class": "container",
+            "aria-labelledby": "masterplan-title",
+            "h2": {
+              "id": "masterplan-title",
+              "text": "Mittendrin statt nur dabei"
+            },
+            "p": {
+              "class": "lead",
+              "text": "Perfekt erreichbar: Haltestelle Möncheberg-Zentrum (Linie 1/2). Nah zur Natur (Rautheimer Forst). Lärmschutz berücksichtigt."
+            },
+            "div": {
+              "style": "margin-top:16px",
+              "iframe": {
+                "title": "Möncheberg Lagekarte",
+                "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2430.829514134439!2d10.5355!3d52.2468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b058e891a3a5d9%3A0x0!2sM%C3%B6ncheberg-Zentrum!5e0!3m2!1sde!2sde!4v1696467726511!5m2!1sde!2sde",
+                "width": "100%",
+                "height": "320",
+                "style": "border:0",
+                "loading": "lazy"
+              }
+            }
+          },
+          {
+            "id": "nucleus",
+            "class": "container",
+            "aria-labelledby": "nucleus-title",
+            "h2": {
+              "id": "nucleus-title",
+              "text": "Der Nucleus – Indoor"
+            },
+            "div": {
+              "class": "grid",
+              "div": [
+                {
+                  "class": "visual",
+                  "img": {
+                    "src": "/images/arena.jpg",
+                    "alt": "Arena Innenraum"
+                  }
+                },
+                {
+                  "p": {
+                    "class": "lead",
+                    "text": [
+                      {
+                        "strong": "3x3 Arena",
+                        "text": " – Sichtbare, kompakte Arena für Sport & Events."
+                      },
+                      {
+                        "strong": "Recording-Cluster",
+                        "text": " – Modular, für Workshops und Produktionen."
+                      },
+                      {
+                        "strong": "Snoezelen",
+                        "text": " – Inklusiver Rückzugsraum mit Reizreduktion."
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "ringpark",
+            "class": "container",
+            "aria-labelledby": "ringpark-title",
+            "h2": {
+              "id": "ringpark-title",
+              "text": "Der Ringpark – Outdoor"
+            },
+            "div": {
+              "class": "grid",
+              "div": [
+                {
+                  "class": "visual",
+                  "img": {
+                    "src": "/images/ringpark.jpg",
+                    "alt": "Ringpark Visual"
+                  }
+                },
+                {
+                  "p": {
+                    "class": "lead",
+                    "text": [
+                      {
+                        "strong": "Small Beach & Wasser",
+                        "text": " – Treff & Entspannung."
+                      },
+                      {
+                        "strong": "Outdoor Gym",
+                        "text": " – Kostenloses Training für alle."
+                      },
+                      {
+                        "strong": "Sprintbahn",
+                        "text": " – Training & Community-Events."
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "argumentation",
+            "class": "container",
+            "aria-labelledby": "argumentation-title",
+            "h2": {
+              "id": "argumentation-title",
+              "text": "Mehr als nur ein Gebäude — 10 Säulen"
+            },
+            "p": {
+              "class": "lead",
+              "text": "Kurze, zitatfähige Argumente für Politik & Verwaltung."
+            },
+            "div": {
+              "class": "accordion",
+              "style": "margin-top:12px",
+              "details": [
+                {
+                  "summary": "1. Ganzjährige Nutzung",
+                  "p": "Innen- und Außenräume, unabhängig vom Wetter."
+                },
+                {
+                  "summary": "2. Inklusion",
+                  "p": "Barrierearme Angebote und Snoezelen-Raum."
+                },
+                {
+                  "summary": "3. Nachhaltigkeit",
+                  "p": "Holzbauweise & Dachbegrünung."
+                },
+                {
+                  "summary": "4. Prävention",
+                  "p": "Niedrigschwellige Aktivitäten für Jugendliche."
+                },
+                {
+                  "summary": "5. Identität",
+                  "p": "Ein Ankerpunkt fürs neue Quartier."
+                },
+                {
+                  "summary": "6. Mobilität",
+                  "p": "Fokus ÖPNV & Rad; weniger Autoverkehr."
+                },
+                {
+                  "summary": "7. Wirtschaft",
+                  "p": "Café, Studios & Events schaffen Einnahmen."
+                },
+                {
+                  "summary": "8. Partnerschaften",
+                  "p": "Kooperation mit Schulen, Vereinen und Kultur."
+                },
+                {
+                  "summary": "9. Sicherheit",
+                  "p": "Design für belebte, sichere Räume rund um die Uhr."
+                },
+                {
+                  "summary": "10. Partizipation",
+                  "p": "Bürger:innenbeteiligung & transparente Prozesse."
+                }
+              ]
+            }
+          },
+          {
+            "id": "verein",
+            "class": "container",
+            "aria-labelledby": "verein-title",
+            "h2": {
+              "id": "verein-title",
+              "text": "Urban Culture & Sports BS"
+            },
+            "p": {
+              "class": "lead",
+              "text": "Gemeinnütziger Träger – offen für Kooperationen, Mitgliedschaft und Partnerschaften."
+            },
+            "p_a": [
+              {
+                "class": "btn btn-primary",
+                "href": "/docs/satzung.pdf",
+                "download": true,
+                "text": "Satzung (PDF)"
+              },
+              {
+                "class": "btn btn-ghost",
+                "href": "#kontakt",
+                "text": "Mitglied werden"
+              }
+            ]
+          },
+          {
+            "id": "status",
+            "class": "container",
+            "aria-labelledby": "status-title",
+            "h2": {
+              "id": "status-title",
+              "text": "Projektstatus & Timeline"
+            },
+            "ul": {
+              "li": [
+                "✅ Konzept & Vision",
+                "✅ Vereinsgründung",
+                "🔄 Politische Gespräche & Standort (aktuell)",
+                "⬜ Bauantrag & Finanzierung",
+                "⬜ Spatenstich",
+                "⬜ Eröffnung"
+              ]
+            }
+          },
+          {
+            "id": "support",
+            "class": "container",
+            "aria-labelledby": "support-title",
+            "h2": {
+              "id": "support-title",
+              "text": "Mach den Möncheberg Hub zur Realität"
+            },
+            "div": {
+              "class": "grid",
+              "div": [
+                {
+                  "style": "padding:18px;border:1px solid #eee;border-radius:8px;text-align:center",
+                  "h3": {
+                    "text": "Mitglied werden"
+                  },
+                  "p": {
+                    "class": "lead",
+                    "text": "Tritt dem Verein bei und gestalte mit."
+                  },
+                  "a": {
+                    "class": "btn btn-primary",
+                    "href": "/docs/antrag_mitglied.pdf",
+                    "text": "Antrag (PDF)"
+                  }
+                },
+                {
+                  "style": "padding:18px;border:1px solid #eee;border-radius:8px;text-align:center",
+                  "h3": {
+                    "text": "Sponsor werden"
+                  },
+                  "p": {
+                    "class": "lead",
+                    "text": "Sichtbarkeit für Unternehmen & Nachhaltige Partnerschaften."
+                  },
+                  "a": {
+                    "class": "btn btn-ghost",
+                    "href": "mailto:partner@moencheberg-hub.de",
+                    "text": "Partner-Infos"
+                  }
+                },
+                {
+                  "style": "padding:18px;border:1px solid #eee;border-radius:8px;text-align:center",
+                  "h3": {
+                    "text": "Spread the Word"
+                  },
+                  "p": {
+                    "class": "lead",
+                    "text": "Folge uns & erzähle es weiter."
+                  },
+                  "div": {
+                    "a": [
+                      {
+                        "href": "#",
+                        "aria-label": "Instagram",
+                        "style": "margin-right:8px",
+                        "text": "Instagram"
+                      },
+                      {
+                        "href": "#",
+                        "aria-label": "X",
+                        "text": "X"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "kontakt",
+            "class": "container",
+            "aria-labelledby": "kontakt-title",
+            "h2": {
+              "id": "kontakt-title",
+              "text": "Kontakt & Standort"
+            },
+            "p": {
+              "class": "lead",
+              "text": "Kontaktformular oder Mail — gerne Gespräch anfragen."
+            },
+            "form": {
+              "action": "https://formspree.io/f/REPLACE_WITH_YOUR_ID",
+              "method": "POST",
+              "label": [
+                {
+                  "for": "name",
+                  "text": "Name"
+                },
+                {
+                  "for": "email",
+                  "text": "E-Mail"
+                },
+                {
+                  "for": "message",
+                  "text": "Nachricht"
+                }
+              ],
+              "input": [
+                {
+                  "id": "name",
+                  "name": "name",
+                  "type": "text",
+                  "required": true,
+                  "style": "width:100%;padding:10px;margin-top:6px;margin-bottom:12px"
+                },
+                {
+                  "id": "email",
+                  "name": "email",
+                  "type": "email",
+                  "required": true,
+                  "style": "width:100%;padding:10px;margin-top:6px;margin-bottom:12px"
+                }
+              ],
+              "textarea": {
+                "id": "message",
+                "name": "message",
+                "rows": 5,
+                "required": true,
+                "style": "width:100%;padding:10px;margin-top:6px;margin-bottom:12px"
+              },
+              "div": {
+                "button": {
+                  "class": "btn btn-primary",
+                  "type": "submit",
+                  "text": "Absenden"
+                },
+                "a": {
+                  "class": "btn btn-ghost",
+                  "href": "mailto:info@moencheberg-hub.de",
+                  "text": "E-Mail"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "footer": {
+        "role": "contentinfo",
+        "class": "container",
+        "div": [
+          {
+            "style": "display:flex;justify-content:space-between;align-items:center",
+            "div": {
+              "text": "© Möncheberg Hub – Urban Culture & Sports BS"
+            },
+            "div_a": [
+              {
+                "href": "/docs/masterdossier.pdf",
+                "text": "Masterdossier"
+              },
+              {
+                "href": "/docs/satzung.pdf",
+                "text": "Satzung"
+              },
+              {
+                "href": "/impressum.html",
+                "text": "Impressum"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
 }
